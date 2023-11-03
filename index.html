@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>List World - Listing Directory HTML Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <!--============================
+        MENU START
+    ==============================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="List World" class="img-fluid w-100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="#">404</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">become an author</a></li>
+                            <li><a href="#">blog leftbar</a></li>
+                            <li><a href="#">blog rightbar</a></li>
+                            <li><a href="#">blog details</a></li>
+                            <li><a href="#">cart view</a></li>
+                            <li><a href="#">checkout</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">empty cart</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">payment done</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">terms and condition</a></li>
+                            <li><a href="#">author profile edit</a></li>
+                            <li><a href="#">product upload</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="menu_right">
+                    <li>
+                        <a class="user_icon" href="#"><i class="fas fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a class="add_list_btn common_btn" href="#">Add Listing <i class="fal fa-plus"></i></a>
+                    </li>
+                    <li>
+                        <select class="select_js">
+                            <option value="">english </option>
+                            <option value="">japanis</option>
+                            <option value="">Korean</option>
+                            <option value="">Urdu</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--============================
+        MENU END
+    ==============================-->
+
+
+    <!--============================
+        BANNER START
+    ==============================-->
+    <section class="wsus__banner" style="background: url(images/banner_bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 m-auto">
+                    <div class="wsus__banner_text mt_100 xs_mt_80">
+                        <span class="banner_icon">
+                            <img src="images/banner_icon.png" alt="icon" class="img-fluid w-100">
+                        </span>
+                        <h5>Lets Explore</h5>
+                        <h1>Your Amazing City</h1>
+                        <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true"><i class="far fa-city"></i> City</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false"><i class="fal fa-building"></i>
+                                    hotel</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false"><i class="fal fa-tree-palm"></i>
+                                    park</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-disabled" type="button" role="tab"
+                                    aria-controls="pills-disabled" aria-selected="false"><i class="fal fa-utensils"></i>
+                                    Restaurant</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
+                                <form class="banner_search_form">
+                                    <ul>
+                                        <li class="banner_input">
+                                            <input type="text" placeholder="Search">
+                                        </li>
+                                        <li class="banner_category">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">Category</option>
+                                                <option value="">hotel</option>
+                                                <option value="">park</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_location">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">location</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_btn">
+                                            <button class="common_btn" type="submit">Find</button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <form class="banner_search_form">
+                                    <ul>
+                                        <li class="banner_input">
+                                            <input type="text" placeholder="Search">
+                                        </li>
+                                        <li class="banner_category">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">Category</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_location">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">location</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_btn">
+                                            <button class="common_btn" type="submit">Find</button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">
+                                <form class="banner_search_form">
+                                    <ul>
+                                        <li class="banner_input">
+                                            <input type="text" placeholder="Search">
+                                        </li>
+                                        <li class="banner_category">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">Category</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_location">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">location</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_btn">
+                                            <button class="common_btn" type="submit">Find</button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-disabled" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab" tabindex="0">
+                                <form class="banner_search_form">
+                                    <ul>
+                                        <li class="banner_input">
+                                            <input type="text" placeholder="Search">
+                                        </li>
+                                        <li class="banner_category">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">Category</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_location">
+                                            <select class="select_2" name="state">
+                                                <option value="AL">location</option>
+                                                <option value="">dhaka</option>
+                                                <option value="">barisal</option>
+                                                <option value="">khulna</option>
+                                                <option value="">rajshahi</option>
+                                                <option value="">bogura</option>
+                                            </select>
+                                        </li>
+                                        <li class="banner_btn">
+                                            <button class="common_btn" type="submit">Find</button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wsus__banner_bottom_text mt_55">
+                        <h2>Ratings 5.0 <i class="fas fa-star"></i></h2>
+                        <p>Trusted by clients from worldwide</p>
+                        <div class="img">
+                            <img src="images/banner_client_img.png" alt="client" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BANNER END
+    ==============================-->
+
+
+    <!--============================
+        CATEGORY START
+    ==============================-->
+    <section class="wsus__category">
+        <div class="container">
+            <div class="wsus__category_bg">
+                <div class="row category_slider">
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_1.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>City</h3>
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_2.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>Restaurant</h3>
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_3.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>Oil Station</h3>
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_4.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>Travel</h3>
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_5.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>Hotel</h3>
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_6.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>Beauty</h3>
+                        </a>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="wsus__category_item">
+                            <div class="icon">
+                                <img src="images/category_icon_3.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <h3>Oil Station</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        CATEGORY END
+    ==============================-->
+
+
+    <!--============================
+        FEATURES START
+    ==============================-->
+    <section class="wsus__features mt_90">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 m-auto">
+                    <div class="section_heading mb_25">
+                        <h2>Main Features</h2>
+                        <p>Lorem Ipsum es simplemente el texto de relleno de
+                            lasLorem Ipsum es simplemente el</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="wsus__features_item">
+                        <div class="img">
+                            <img src="images/feature_icon_1.png" alt="featured" class="img-fluis w-100">
+                        </div>
+                        <h3>Choose A Category</h3>
+                        <p>Proin dapibus nisl ornare diam varius mpus. Aenean a quam.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__features_item">
+                        <div class="img">
+                            <img src="images/feature_icon_2.png" alt="featured" class="img-fluis w-100">
+                        </div>
+                        <h3>Find Location</h3>
+                        <p>Proin dapibus nisl ornare diam varius mpus. Aenean a quam.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__features_item">
+                        <div class="img">
+                            <img src="images/feature_icon_3.png" alt="featured" class="img-fluis w-100">
+                        </div>
+                        <h3>Choose Place</h3>
+                        <p>Proin dapibus nisl ornare diam varius mpus. Aenean a quam.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__features_item">
+                        <div class="img">
+                            <img src="images/feature_icon_4.png" alt="featured" class="img-fluis w-100">
+                        </div>
+                        <h3>Contact Owners</h3>
+                        <p>Proin dapibus nisl ornare diam varius mpus. Aenean a quam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        FEATURES END
+    ==============================-->
+
+
+    <!--============================
+        LATEST LISTING START
+    ==============================-->
+    <section class="wsus__latest_listing mt_95 pt_90 pb_100" style="background: url(images/listing_bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 m-auto">
+                    <div class="section_heading mb_25">
+                        <h2>Main Features</h2>
+                        <p>Lorem Ipsum es simplemente el texto de relleno de lasLorem Ipsum es simplemente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="wsus__single_listing">
+                        <div class="wsus__single_listing_img">
+                            <img src="images/listing_img_1.jpg" alt="listing" class="img-fluid w-100">
+                            <a class="wishlist" href="#"><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="wsus__single_listing_text">
+                            <div class="icon">
+                                <img src="images/listing_icon_1.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <div class="top d-flex flex-wrap align-items-center justify-content-between mb_10">
+                                <a class="category" href="#">Destination</a>
+                                <p class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                            <a class="title" href="#">Kecamatan Mengwi, Cozy 3 BR Pool Villa Canggu Bali</a>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Bali, Indonesia</p>
+                            <a class="call" href="callto:12134567890"><i class="fas fa-phone-alt"></i>
+                                +1347-430-9510</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="wsus__single_listing">
+                        <div class="wsus__single_listing_img">
+                            <img src="images/listing_img_2.jpg" alt="listing" class="img-fluid w-100">
+                            <a class="wishlist" href="#"><i class="fas fa-heart"></i></a>
+                            <a class="venobox play_btn" data-autoplay="true" data-vbtype="video"
+                                href="YOUR PLAYABLE VIDEO LINK">
+                                <i class=" fas fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="wsus__single_listing_text">
+                            <div class="icon">
+                                <img src="images/listing_icon_2.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <div class="top d-flex flex-wrap align-items-center justify-content-between mb_10">
+                                <a class="category" href="#">Restaurant</a>
+                                <p class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                            <a class="title" href="#">Blue Smoke serves original New York barbecue for lunch and
+                                Dinner.</a>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> 255 Vesey Street, New York, NY
+                                10281</p>
+                            <a class="call" href="callto:12134567890"><i class="fas fa-phone-alt"></i>
+                                +1347-430-9510</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="wsus__single_listing">
+                        <div class="wsus__single_listing_img">
+                            <img src="images/listing_img_3.jpg" alt="listing" class="img-fluid w-100">
+                            <a class="wishlist" href="#"><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="wsus__single_listing_text">
+                            <div class="icon">
+                                <img src="images/listing_icon_3.png" alt="icon" class="img-fluid w-100">
+                            </div>
+                            <div class="top d-flex flex-wrap align-items-center justify-content-between mb_10">
+                                <a class="category" href="#">Museum</a>
+                                <p class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                            <a class="title" href="#">The Louvre Museum, is a national art museum in Paris, France.</a>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Museum in Paris, France</p>
+                            <a class="call" href="callto:12134567890"><i class="fas fa-phone-alt"></i>
+                                +1347-430-9510</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        LATEST LISTING END
+    ==============================-->
+
+
+
+
+    <!--============================
+        START
+    ==============================-->
+
+    <!--============================
+        END
+    ==============================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--jquery library js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
