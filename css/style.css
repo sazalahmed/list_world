@@ -86,11 +86,6 @@ button {
     --bodyFont: 'Poppins', sans-serif;
 }
 
-
-
-
-
-
 .common_btn {
     color: var(--colorWhite);
     font-size: 16px;
@@ -181,11 +176,8 @@ button {
     padding: 0;
     text-align: center;
     cursor: pointer;
-    /* background: var(--colorWhite); */
-    /* color: var(--colorPrimary); */
     border: 1px solid #ff5a5f26;
     background: #ff5a5f91;
-    /* border-color: #ff5a5f26; */
     color: var(--colorWhite);
     transition: all linear .3s;
     z-index: 1;
@@ -294,12 +286,115 @@ button {
     }
 }
 
+.wsus__pagination ul {
+    justify-content: center;
+    gap: 15px;
+}
 
+.wsus__pagination ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border: none;
+    border-radius: 3px !important;
+    background: #F1F1F1;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+}
+
+.wsus__pagination ul li a:hover,
+.wsus__pagination ul li a.active {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.wsus__breadcroumb {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.wsus__breadcroumb_overlay {
+    background: rgba(0, 0, 0, 0.30);
+    padding-top: 310px;
+}
+
+.wsus__breadcroumb_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wsus__breadcroumb_text .icon {
+    width: 140px;
+    height: 140px;
+    background: var(--colorPrimary);
+    padding: 45px;
+    margin-right: 40px;
+    border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -ms-border-radius: 6px 6px 0px 0px;
+    -o-border-radius: 6px 6px 0px 0px;
+}
+
+.wsus__breadcroumb_text .text h1 {
+    color: var(--colorWhite);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.wsus__breadcroumb_text .text ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.wsus__breadcroumb_text .text ul li a {
+    font-size: 16px;
+    color: var(--colorWhite);
+    font-weight: 500;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__breadcroumb_text .text ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.wsus__breadcroumb_text .text ul li a::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "font awesome 5 free";
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    top: 2px;
+    right: -23px;
+}
+
+.wsus__breadcroumb_text .text ul li:last-child a::after {
+    display: none;
+}
 /*===================================
     GLOBAL CSS END
 ===================================*/
-
-
 
 /*===================================
     HOME PAGE START
@@ -313,7 +408,7 @@ button {
     top: 0;
     left: 0;
     z-index: 999;
-    background: #ffffff80;
+    background: #ffffffdb;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -645,12 +740,7 @@ button {
 
 /* banner end */
 
-
-
-
 /* category start */
-.wsus__category {}
-
 .wsus__category_bg {
     border-radius: 10px;
     background: var(--colorWhite);
@@ -941,8 +1031,6 @@ button {
 /* latest listing end */
 
 /* famous cities start */
-.wsus__famous_cities {}
-
 .single__famous_cities {
     margin: 0px 12px;
     height: 370px;
@@ -1129,8 +1217,6 @@ button {
     line-height: 170px;
     font-size: 35px;
 }
-
-.wsus__counter_content_area {}
 
 .wsus__single_counter {
     border-radius: 5px;
@@ -1593,8 +1679,6 @@ footer {
     background: rgba(255, 255, 255, 0.80);
 }
 
-.wsus__footer_info {}
-
 .wsus__footer_info .footer_logo {
     display: block;
     width: 180px;
@@ -1630,9 +1714,6 @@ footer {
     color: var(--colorPrimary);
 }
 
-
-.wsus__footer_link {}
-
 .wsus__footer_apps h3,
 .wsus__footer_link h3 {
     color: #373737;
@@ -1640,8 +1721,6 @@ footer {
     font-weight: 600;
     margin-bottom: 20px;
 }
-
-.wsus__footer_link ul {}
 
 .wsus__footer_link ul li {
     transition: all linear .3s;
@@ -1692,10 +1771,6 @@ footer {
     padding-left: 5px;
 }
 
-.wsus__footer_apps {}
-
-.wsus__footer_apps h3 {}
-
 .wsus__footer_apps ul {
     display: flex;
     flex-wrap: wrap;
@@ -1704,8 +1779,6 @@ footer {
     gap: 10px;
     margin-top: 25px;
 }
-
-.wsus__footer_apps ul li {}
 
 .wsus__footer_apps ul li a {
     border-radius: 5px;
@@ -1738,8 +1811,6 @@ footer {
     gap: 10px;
 }
 
-.wsus__copyright_text ul li {}
-
 .wsus__copyright_text ul li a {
     width: 40px;
     height: 40px;
@@ -1760,22 +1831,23 @@ footer {
     color: var(--colorPrimary);
 }
 
-
-
-
 /* footer end */
+/*===================================
+    HOME PAGE END
+===================================*/
 
+
+/*===================================
+    LISTING TOPBAR START
+===================================*/
 
 
 
 
 
 /*===================================
-    HOME PAGE END
+    LISTING TOPBAR END
 ===================================*/
-
-
-
 
 
 
