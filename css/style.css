@@ -83,6 +83,7 @@ button {
     --colorBlack: #000000;
     --colorWhite: #ffffff;
     --ratingColor: #FF9900;
+    --colorLightBg: #ecf2ff;
     --bodyFont: 'Poppins', sans-serif;
 }
 
@@ -90,7 +91,7 @@ button {
     color: var(--colorWhite);
     font-size: 16px;
     font-weight: 500;
-    background: #FFE4E5;
+    background: var(--col);
     padding: 13px 30px;
     position: relative;
     border-radius: 5px;
@@ -481,7 +482,7 @@ button {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #FFE4E5;
+    background: var(--colorLightBg);
     color: var(--colorPrimary);
     border-radius: 5px;
     margin-right: 20px;
@@ -533,8 +534,6 @@ button {
     width: 220px;
     background: var(--colorWhite);
     line-height: initial;
-    border: 1px solid #eee;
-    box-shadow: var(--boxShadow);
     top: 120%;
     left: 0;
     opacity: 0;
@@ -547,6 +546,7 @@ button {
     max-height: 450px;
     overflow-y: auto;
     z-index: 99;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .main_menu .wsus__droap_menu::-webkit-scrollbar-thumb {
@@ -582,6 +582,9 @@ button {
     border-color: var(--colorWhite);
 }
 
+.main_menu .wsus__droap_menu li:last-child a {
+    border: none;
+}
 
 .main_menu .navbar-nav li:hover .wsus__droap_menu {
     top: 100%;
@@ -1676,7 +1679,7 @@ button {
 }
 
 .wsus__subscription_text form input {
-    padding: 25px 20px;
+    padding: 25px 30px;
 }
 
 .wsus__subscription_text form button {
@@ -3676,7 +3679,7 @@ footer {
     height: 40px;
     line-height: 42px;
     text-align: center;
-    background: #FFE4E5;
+    background: var(--colorLightBg);
     font-size: 13px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -4081,7 +4084,8 @@ footer {
     left: auto;
     color: var(--colorWhite);
     font-size: 16px;
-    background: #0A547A;
+    background: var(--colorBlack);
+    ;
     text-align: center;
     z-index: 99;
     text-transform: capitalize;
@@ -4123,12 +4127,13 @@ footer {
 }
 
 .wsus__close_icon:hover {
-    background: #0A547A;
+    background: var(--colorBlack);
+    ;
 }
 
 .wsus__dashboard_side_bar {
     height: 100%;
-    background: #e6ecf9a1;
+    background: var(--colorLightBg);
     border-radius: 5px;
 }
 
@@ -4174,7 +4179,7 @@ footer {
 }
 
 .wsus__deshboard_menu li a {
-    color: #0A547A;
+    color: var(--colorBlack);
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 400;
@@ -4185,7 +4190,7 @@ footer {
     -moz-transition: all linear .3s ease;
     -ms-transition: all linear .3s ease;
     -o-transition: all linear .3s ease;
-    border-bottom: 1px solid #0A547A14;
+    border-bottom: 1px solid var(--colorWhite);
 }
 
 .wsus__deshboard_menu li:last-child a {
@@ -4200,11 +4205,8 @@ footer {
 .wsus__deshboard_menu li a:hover,
 .wsus__deshboard_menu li a.dash_active {
     color: var(--colorPrimary);
-    background: #0A547A17;
-    border-color: #0A547A17;
+    background: #cc444817;
 }
-
-.wsus__dashboard {}
 
 .wsus__dashboard .heading {
     font-weight: 700;
@@ -4331,8 +4333,8 @@ footer {
 .wsus__my_property .table tr th,
 .wsus__dash_order .table tr th,
 .wsus__dash_invoice .table tr th {
-    background: #e6ecf9a1 !important;
-    color: #0A547A;
+    background: var(--colorLightBg) !important;
+    color: var(--colorBlack);
     text-transform: capitalize;
     font-size: 16px;
 }
@@ -4359,7 +4361,7 @@ footer {
 }
 
 .wsus__my_property .purpose p {
-    color: #0A547A;
+    color: var(--colorBlack);
     text-transform: capitalize;
 }
 
@@ -4369,21 +4371,21 @@ footer {
 }
 
 .wsus__my_property .status p {
-    color: var(--colorWhite);
+    color: var(--colorPrimary);
     text-transform: capitalize;
     font-weight: 600;
-    background: var(--colorPrimary);
+    background: #ff5a5f17;
     padding: 5px 13px;
     font-size: 13px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .wsus__my_property .status p.active {
-    color: var(--colorWhite);
-    background: #198754;
+    color: #198754;
+    background: #19875412;
     padding: 5px 13px;
     font-size: 13px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .wsus__my_property .actions {
@@ -4414,13 +4416,13 @@ footer {
 }
 
 .wsus__my_property .actions ul li a:hover {
-    background: #0A547A;
+    background: var(--colorBlack);
 }
 
 .wsus__my_property .table td h5 {
     text-transform: capitalize;
     font-size: 16px;
-    color: #0A547A;
+    color: var(--colorBlack);
     font-weight: 600;
 }
 
@@ -4466,7 +4468,7 @@ footer {
     display: block;
     font-size: 16px;
     margin-top: 10px;
-    color: #0A547A;
+    color: var(--colorBlack);
     transition: all linear .3s;
     -webkit-transition: all linear .3s ease;
     -moz-transition: all linear .3s ease;
@@ -4531,9 +4533,7 @@ footer {
 
 .wsus__dash_banner_img label {
     display: block;
-    /* font-weight: 900; */
     margin-bottom: 5px;
-    /* font-size: 15px; */
     text-transform: capitalize;
     margin-top: 10px;
 }
@@ -4574,7 +4574,7 @@ footer {
 }
 
 .wsus__dash_order .price {
-    width: 120px;
+    min-width: 120px;
     width: 15%;
 }
 
@@ -4586,11 +4586,11 @@ footer {
 .wsus__dash_order .action a {
     background: var(--colorPrimary);
     color: var(--colorWhite);
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     font-size: 13px;
-    line-height: 25px;
+    line-height: 30px;
     border-radius: 2px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s ease;
@@ -4600,7 +4600,7 @@ footer {
 }
 
 .wsus__dash_order .action a:hover {
-    background: #0A547A;
+    background: var(--colorBlack);
 }
 
 .wsus__message_single {
@@ -4635,7 +4635,7 @@ footer {
     text-transform: capitalize;
     font-weight: 600;
     margin: 0;
-    color: #0A547A;
+    color: var(--colorBlack);
     width: 100%;
     height: auto;
 }
@@ -4643,7 +4643,7 @@ footer {
 .wsus__message_text .sub_title {
     font-size: 17px;
     text-transform: capitalize;
-    color: #0A547A;
+    color: var(--colorBlack);
     width: 100%;
     height: auto !important;
     margin-bottom: 5px;
@@ -4651,14 +4651,14 @@ footer {
 
 .wsus__message_text span {
     margin: 3px 0px 10px 0px;
-    color: #0A547A;
+    color: var(--colorBlack);
     text-transform: capitalize;
     font-size: 14px;
     display: block;
 }
 
 .wsus__message_text p i {
-    color: #DEC949;
+    color: var(--ratingColor);
 }
 
 .wsus__message_icon {
@@ -4666,11 +4666,12 @@ footer {
     float: left;
     text-align: center;
     overflow: hidden;
-    background: #0A547A1F;
+    background: var(--colorBlack);
 }
 
 .wsus__message_icon a {
-    color: #0A547A;
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
     font-size: 16px;
     font-weight: 400;
     width: 100%;
@@ -4687,12 +4688,12 @@ footer {
 }
 
 .wsus__message_icon a.del:hover {
-    background: var(--colorPrimary);
-    color: var(--colorWhite);
+    background: var(--colorBlack);
+    /* color: var(--colorWhite); */
 }
 
 .wsus__message_icon a.edit:hover {
-    background: #0A547A;
+    background: var(--colorBlack);
     color: var(--colorWhite);
 }
 
@@ -4736,8 +4737,6 @@ footer {
     border: 1px solid #E4E7E9;
 }
 
-.dash_aminities .form-check label {}
-
 .pro_det_map .note-editor.note-airframe .note-editing-area .note-editable,
 .note-editor.note-frame .note-editing-area .note-editable {
     min-height: 130px;
@@ -4777,7 +4776,7 @@ footer {
 }
 
 .wsus__dash_invoice .table tr td {
-    color: #0A547A;
+    color: var(--colorBlack);
     text-transform: capitalize;
     font-size: 16px;
 }
@@ -4840,7 +4839,8 @@ footer {
 }
 
 .wsus__edit_img i:hover {
-    background: #0A547A;
+    background: var(--colorBlack);
+    ;
 }
 
 .edit_images .wsus__property_input {
@@ -4882,7 +4882,8 @@ footer {
 }
 
 .existing_item span.del:hover {
-    background: #0A547A;
+    background: var(--colorBlack);
+    ;
 }
 
 .existing_item img {
@@ -4919,10 +4920,6 @@ footer {
     margin-bottom: 5px;
 }
 
-.wsus__add_property input,
-.wsus__add_property textarea {}
-
-
 .wsus__add_property .sub_heading {
     margin-bottom: 0;
 }
@@ -4931,7 +4928,6 @@ footer {
 .dash_aminities .sub_heading {
     margin-bottom: 20px;
 }
-
 
 .nearest_location .select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: 50px;
@@ -4944,10 +4940,6 @@ footer {
 .nearest_location .select2-container--default .select2-selection--single .select2-selection__arrow {
     top: -5px;
 }
-
-.wsus__select_review {}
-
-.wsus__select_review ul {}
 
 .wsus__select_review ul li {
     margin-bottom: 15px;
@@ -4971,7 +4963,7 @@ footer {
 }
 
 .wsus__total_rating {
-    background: #e6ecf9a1;
+    background: var(--colorLightBg);
     border-radius: 5px;
     padding: 25px;
     height: 100%;
@@ -4992,14 +4984,6 @@ footer {
     text-transform: capitalize;
     margin-top: 5px;
 }
-
-
-
-
-
-
-
-
 
 /*======================
     DASHBOARD  END
