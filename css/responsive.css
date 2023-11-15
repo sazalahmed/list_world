@@ -1,60 +1,585 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
-}
-
+@media (min-width: 1200px) and (max-width: 1399.99px) {}
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
- 
-  
-}
 
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 0px 13px;
+    }
+
+    .main_menu .menu_right .user_icon {
+        margin-right: 10px;
+    }
+
+    .main_menu .menu_right .add_list_btn {
+        margin-right: 10px;
+    }
+
+    .main_menu .navbar-brand {
+        max-width: 140px;
+    }
+
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_bottom_text .img {
+        margin-bottom: 190px;
+    }
+
+    .section_heading h2 {
+        font-size: 28px;
+    }
+
+    .wsus__features_item h3 {
+        font-size: 18px;
+    }
+
+    .wsus__counter_img {
+        width: 460px;
+        bottom: 100px;
+    }
+
+    .wsus__work::before,
+    .wsus__work::after,
+    .wsus__work_text_area::after {
+        display: none;
+    }
+
+    .wsus__work_item .text {
+        width: 100%;
+    }
+
+    .wsus__work_item .text h3 {
+        font-size: 16px;
+    }
+
+    .wsus__single_testimonial {
+        padding: 75px 45px 110px 45px !important;
+        margin: 75px 12px 55px 12px !important;
+    }
+
+    .testimonial_slider .slick-center .wsus__single_testimonial::after {
+        width: 85px;
+        height: 60px;
+    }
+
+    .wsus__footer_info .footer_logo {
+        width: 150px;
+    }
+
+    .wsus__footer_link,
+    .wsus__footer_apps {
+        margin-top: 50px;
+    }
+
+    .single__famous_cities {
+        height: 310px;
+    }
+
+    .wsus__counter .container {
+        padding-top: 75px !important;
+        padding-bottom: 100px !important;
+    }
+
+
+    .wsus__work_text_area .margin_md_1,
+    .wsus__work_text_area .margin_md_2 {
+        margin-top: 0 !important;
+    }
+
+    .wsus__work {
+        padding-bottom: 100px !important;
+    }
+
+    .wsus__single_counter {
+        padding: 25px;
+    }
+
+    .wsus__single_counter .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .wsus__single_blog_img {
+        height: 210px;
+    }
+
+    .wsus__subscription_text h2 {
+        font-size: 32px;
+    }
+
+    .wsus__footer_apps h3,
+    .wsus__footer_link h3 {
+        font-size: 16px;
+    }
+
+    .wsus__single_listing_img,
+    .single_list_slider {
+        height: 210px;
+    }
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+
+
+}
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
-      
- 
-  
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+    .main_menu .navbar-brand {
+        max-width: 150px;
+        margin-left: 15px;
+    }
+
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 60px;
+        background: var(--colorWhite);
+        padding-top: 10px;
+    }
+
+    .main_menu .menu_right {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background: var(--colorWhite);
+        border-bottom: 1px solid var(--colorPrimary);
+        padding: 10px 10px 25px 10px;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 20px;
+        border-top: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 15px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        max-height: 250px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+
+    .banner_search_form ul .banner_btn,
+    .banner_search_form ul .banner_input,
+    .banner_search_form ul .banner_category,
+    .banner_search_form ul .banner_location {
+        width: 48%;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_bottom_text .img {
+        margin-bottom: 190px;
+    }
+
+    .section_heading h2 {
+        font-size: 28px;
+    }
+
+    .wsus__features_item h3 {
+        font-size: 18px;
+    }
+
+    .wsus__counter_img {
+        display: none;
+    }
+
+    .wsus__work::before,
+    .wsus__work::after,
+    .wsus__work_text_area::after {
+        display: none;
+    }
+
+    .wsus__work_item .text {
+        width: 100%;
+    }
+
+    .wsus__work_item .text h3 {
+        font-size: 16px;
+    }
+
+    .wsus__single_testimonial {
+        padding: 75px 45px 110px 45px !important;
+        margin: 75px 12px 55px 12px !important;
+    }
+
+    .testimonial_slider .slick-center .wsus__single_testimonial::after {
+        width: 85px;
+        height: 60px;
+    }
+
+    .wsus__subscription_img {
+        display: none;
+    }
+
+    .wsus__footer_info .footer_logo {
+        width: 150px;
+    }
+
+    .wsus__footer_link,
+    .wsus__footer_apps {
+        margin-top: 50px;
+    }
+
+    .single__famous_cities {
+        height: 310px;
+    }
+
+    .wsus__counter .container {
+        padding-top: 75px !important;
+        padding-bottom: 100px !important;
+    }
+
+
+    .wsus__work_text_area .margin_md_1,
+    .wsus__work_text_area .margin_md_2 {
+        margin-top: 0 !important;
+    }
+
+    .wsus__work {
+        padding-bottom: 100px !important;
+    }
+
+    .wsus__footer_apps ul {
+        flex-direction: row;
+    }
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+
+
 }
-
-
-
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+    .main_menu .navbar-brand {
+        max-width: 150px;
+        margin-left: 15px;
+    }
+
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 60px;
+        background: var(--colorWhite);
+        padding-top: 10px;
+    }
+
+    .main_menu .menu_right {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background: var(--colorWhite);
+        border-bottom: 1px solid var(--colorPrimary);
+        padding: 10px 10px 25px 10px;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 20px;
+        border-top: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 15px;
+    }
+
+    .main_menu .menu_right .add_list_btn {
+        margin-right: 10px;
+        padding: 13px 14px;
+        font-size: 14px;
+    }
+
+    .main_menu .menu_right .user_icon {
+        margin-right: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        max-height: 250px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+
+    .wsus__banner_text .nav-pills .nav-item button {
+        font-size: 14px;
+        padding: 7px 24px;
+    }
+
+    .banner_search_form ul .banner_btn,
+    .banner_search_form ul .banner_input,
+    .banner_search_form ul .banner_category,
+    .banner_search_form ul .banner_location {
+        width: 100%;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_bottom_text .img {
+        margin-bottom: 190px;
+    }
+
+    .section_heading h2 {
+        font-size: 28px;
+    }
+
+    .wsus__features_item h3 {
+        font-size: 18px;
+    }
+
+    .wsus__single_category_img {
+        height: auto;
+    }
+
+    .wsus__counter_img {
+        display: none;
+    }
+
+    .wsus__work::before,
+    .wsus__work::after,
+    .wsus__work_text_area::after {
+        display: none;
+    }
+
+    .wsus__work_item .text {
+        width: 81%;
+    }
+
+    .wsus__work_item .text h3 {
+        font-size: 16px;
+    }
+
+    .wsus__single_testimonial {
+        padding: 40px 30px 90px 30px !important;
+        margin: 75px 12px 55px 12px !important;
+    }
+
+    .testimonial_slider .slick-center .wsus__single_testimonial::after {
+        width: 85px;
+        height: 60px;
+    }
+
+    .wsus__subscription_text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__subscription_img {
+        margin-top: 30px;
+    }
+
+    .wsus__footer_info .footer_logo {
+        width: 150px;
+    }
+
+    .wsus__footer_link,
+    .wsus__footer_apps {
+        margin-top: 50px;
+    }
+
+    .wsus__copyright_text p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__agent_page .wsus__single_listing_img,
+    .wsus__famous_listing .wsus__single_listing_img,
+    .wsus__famous_listing .single_list_slider {
+        height: 300px;
+    }
+
+    .wsus__single_blog_img {
+        height: 300px;
+    }
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+
+
+
+
 }
-
-
-
 
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+    .main_menu {}
+
+    .main_menu .navbar-brand {
+        max-width: 150px;
+        margin-left: 15px;
+    }
+
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 60px;
+        background: var(--colorWhite);
+        padding-top: 10px;
+    }
+
+    .main_menu .menu_right {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background: var(--colorWhite);
+        border-bottom: 1px solid var(--colorPrimary);
+        padding: 10px 10px 25px 10px;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 20px;
+        border-top: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 15px;
+    }
+
+    .main_menu .menu_right .add_list_btn {
+        margin-right: 10px;
+        padding: 13px 14px;
+        font-size: 14px;
+    }
+
+    .main_menu .menu_right .user_icon {
+        margin-right: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        max-height: 250px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+
+    .wsus__banner_text .nav-pills .nav-item button {
+        font-size: 14px;
+        padding: 7px 24px;
+    }
+
+    .banner_search_form ul .banner_btn,
+    .banner_search_form ul .banner_input,
+    .banner_search_form ul .banner_category,
+    .banner_search_form ul .banner_location {
+        width: 100%;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_bottom_text .img {
+        margin-bottom: 190px;
+    }
+
+    .section_heading h2 {
+        font-size: 28px;
+    }
+
+    .wsus__features_item h3 {
+        font-size: 18px;
+    }
+
+    .wsus__single_category_img {
+        height: auto;
+    }
+
+    .wsus__counter_img {
+        display: none;
+    }
+
+    .wsus__work::before,
+    .wsus__work::after,
+    .wsus__work_text_area::after {
+        display: none;
+    }
+
+    .wsus__work_item .text {
+        width: 81%;
+    }
+
+    .wsus__work_item .text h3 {
+        font-size: 16px;
+    }
+
+    .wsus__single_testimonial {
+        padding: 40px 30px 90px 30px !important;
+        margin: 75px 12px 55px 12px !important;
+    }
+
+    .testimonial_slider .slick-center .wsus__single_testimonial::after {
+        width: 85px;
+        height: 60px;
+    }
+
+    .wsus__subscription_text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__subscription_img {
+        margin-top: 30px;
+    }
+
+    .wsus__footer_info .footer_logo {
+        width: 150px;
+    }
+
+    .wsus__footer_link,
+    .wsus__footer_apps {
+        margin-top: 50px;
+    }
+
+    .wsus__copyright_text p {
+        margin-bottom: 15px;
+    }
+
+    /* ==============================
+        HOME PAHE END
+    ============================== */
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

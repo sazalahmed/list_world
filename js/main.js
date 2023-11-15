@@ -39,19 +39,20 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 2,
+                    arrows: false,
+                    slidesToShow: 1,
                 }
             }
         ]
@@ -100,25 +101,27 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 3,
+                    arrows: false,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 2,
+                    arrows: false,
+                    slidesToShow: 1,
                 }
             }
         ]
@@ -133,7 +136,7 @@ $(function () {
     $('.testimonial_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         centerMode: true,
         centerPadding: '0px',
@@ -144,25 +147,25 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             }
         ]
@@ -232,13 +235,25 @@ $(function () {
 
 
     //*==========DASHBOARD MENU==========  
-    $('.wsus__menu_icon').on('click', function () {
-        $('.wsus__dashboard_side_bar').addClass('.show_menu');
+    // $('.wsus__menu_icon').on('click', function () {
+    //     $('.wsus__dashboard_side_bar').addClass('.show_menu');
+    // });
+
+    // $('.wsus__close_icon').on('click', function () {
+    //     $('.wsus__dashboard_side_bar').removeClass('.show_menu');
+    // });
+
+
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
     });
 
-    $('.wsus__close_icon').on('click', function () {
-        $('.wsus__dashboard_side_bar').removeClass('.show_menu');
-    });
+
+
+
+
+
 
 
 
