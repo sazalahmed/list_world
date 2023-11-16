@@ -195,7 +195,6 @@ button {
     -o-transition: all linear .3s;
 }
 
-.nextArrow.slick-arrow,
 .prevArrow.slick-arrow:hover,
 .nextArrow.slick-arrow:hover {
     background: var(--colorPrimary);
@@ -411,6 +410,11 @@ button {
     box-shadow: none;
 }
 
+.form-check-input:focus {
+    border-color: var(--colorPrimary);
+    box-shadow: none;
+}
+
 /*===================================
     GLOBAL CSS END
 ===================================*/
@@ -509,13 +513,12 @@ button {
     background: none;
     border: none;
     padding-right: 25px;
-    min-width: 100px;
 }
 
 .main_menu .menu_right .current {
     color: var(--colorBlack);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     text-transform: capitalize;
 }
 
@@ -637,7 +640,6 @@ button {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    height: 100vh;
     overflow: hidden;
     padding-top: 80px;
 }
@@ -662,12 +664,24 @@ button {
     margin-bottom: 15px;
 }
 
-.wsus__banner_text h1 {
+.wsus__banner_text h1,
+.wsus__banner_text h1 span {
     color: var(--colorBlack);
     text-align: center;
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 60px;
+}
+
+.wsus__banner_text h1 span {
+    margin: 0;
+    text-align: left;
+}
+
+.wsus__banner_text h1 span b {
+    color: var(--colorPrimary);
+    font-weight: 700;
+    font-style: normal;
 }
 
 .wsus__banner_text .nav-pills {
@@ -724,10 +738,12 @@ button {
 
 .banner_search_form {
     border-radius: 5px;
-    background: #F2F6F7;
+    background: var(--colorWhite);
     filter: drop-shadow(0px 0px 25px rgba(94, 94, 94, 0.25));
     padding: 20px;
     width: 100%;
+    position: relative;
+    transition: all linear .3s;
 }
 
 .banner_search_form ul {
@@ -747,6 +763,7 @@ button {
 .banner_search_form ul li button {
     width: 100%;
     text-align: center;
+    padding: 17px 30px;
 }
 
 .banner_search_form ul .banner_input,
@@ -794,9 +811,73 @@ button {
 .wsus__banner_bottom_text .img {
     width: 230px;
     margin: 0 auto;
+    margin-bottom: 170px;
+}
+
+.banner_search_form .advance_search_btn {
+    position: absolute;
+    bottom: -24px;
+    right: 20px;
+    background: var(--colorWhite);
+    width: 50px;
+    height: 25px;
+    color: var(--colorBlack);
+    border-radius: 0px 0px 5px 5px;
+    filter: drop-shadow(0px 0px 25px rgba(94, 94, 94, 0.25));
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.advance_search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+}
+
+.advance_search .form-check input {
+    padding: 0;
+    border-radius: 3px;
+    border-color: var(--colorPrimary);
+}
+
+.banner_search_form .accordion-button {
+    box-shadow: none;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    bottom: -33px;
+    right: 22px;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    width: auto;
+    padding: 7px 45px 7px 25px;
+    border-radius: 0px 0px 6px 6px !important;
+    filter: drop-shadow(0px 4px 17px rgba(94, 94, 94, 0.20));
+}
+
+.banner_search_form .accordion-button:not(.collapsed) {
+    color: var(--colorPrimary);
+}
+
+.banner_search_form .accordion-body {
+    padding: 20px 0px 0px 0px;
+}
+
+.banner_search_form .accordion-button::after {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    width: 11px;
+    height: 11px;
+    background-position: center;
 }
 
 /* banner end */
+
 
 /* category start */
 .wsus__category_bg {
@@ -1083,7 +1164,6 @@ button {
     right: 53px;
 }
 
-.wsus__single_listing .nextArrow.slick-arrow,
 .wsus__single_listing .prevArrow.slick-arrow:hover,
 .wsus__single_listing .nextArrow.slick-arrow:hover {
     background: var(--colorWhite);
@@ -1348,8 +1428,8 @@ button {
     top: 40px;
     right: 0;
     z-index: 2;
-    animation: work_animi linear 1.8s infinite alternate;
-    -webkit-animation: work_animi linear 1.8s infinite alternate;
+    animation: work_animi linear 2s infinite alternate;
+    -webkit-animation: work_animi linear 2s infinite alternate;
 }
 
 .wsus__work::after {

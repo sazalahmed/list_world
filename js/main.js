@@ -99,6 +99,18 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 4,
@@ -234,27 +246,16 @@ $(function () {
     });
 
 
-    //*==========DASHBOARD MENU==========  
-    // $('.wsus__menu_icon').on('click', function () {
-    //     $('.wsus__dashboard_side_bar').addClass('.show_menu');
-    // });
-
-    // $('.wsus__close_icon').on('click', function () {
-    //     $('.wsus__dashboard_side_bar').removeClass('.show_menu');
-    // });
-
-
     //======MOBILE MENU BUTTON=======
     $(".navbar-toggler").on("click", function () {
         $(".navbar-toggler").toggleClass("show");
     });
 
 
-
-
-
-
-
+    //======ANIMATED HEADING=======
+    $('.animate-zoom').animatedHeadline({
+        animationType: 'zoom'
+    });
 
 
 });
