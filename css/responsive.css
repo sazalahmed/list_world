@@ -40,7 +40,7 @@
     }
 
     .section_heading h2 {
-        font-size: 44px;
+        font-size: 38px;
     }
 
     .wsus__counter_img {
@@ -92,12 +92,139 @@
         font-size: 14px;
     }
 
-
     /* ==============================
         HOME PAGE END
     ============================== */
 
 
+    /* ==============================
+        ABOUT PAGE START
+    ============================== */
+    .wsus__about_text h2 {
+        font-size: 38px;
+    }
+
+    .wsus__contact_info_item .icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 24px;
+    }
+
+    .wsus__contact_info_item .text {
+        width: 77%;
+    }
+
+    .wsus__single_agent_text a {
+        font-size: 20px;
+    }
+
+    /* ==============================
+        ABOUT PAGE END
+    ============================== */
+
+
+    /* ==============================
+        BLOG DETAILS START
+    ============================== */
+    .wsus__blog_details_img {
+        height: 400px;
+    }
+
+    .details_gallery_item {
+        height: 160px;
+    }
+
+    .wsus__blog_details_text ul li,
+    .wsus__blog_details_text ol li {
+        width: 50%;
+    }
+
+    .single_review .text {
+        width: 86%;
+    }
+
+    .sidebar_blog_post ul li .text {
+        width: 57%;
+    }
+
+    .wsus__blog_sidebar {
+        padding: 20px;
+    }
+
+    /* ==============================
+        BLOG DETAILS END
+    ============================== */
+
+
+
+    /* ==============================
+        CONTACT  START
+    ============================== */
+    .wsus__contact_img {
+        width: 800px;
+        position: relative;
+        left: -90px;
+        margin-top: 65px;
+    }
+
+    .wsus__contact_form p {
+        width: 70%;
+    }
+
+    .wsus__contact_form form {
+        padding: 30px;
+    }
+
+    /* ==============================
+        CONTACT  END
+    ============================== */
+
+
+    /* ==============================
+        DASHBOARD  START
+    ============================== */
+    .wsus__deshboard_menu li a {
+        font-size: 15px;
+    }
+
+    .wsus__message_text {
+        width: 82%;
+    }
+
+    .wsus__add_property .common_btn {
+        padding: 13px 18px;
+    }
+
+    /* ==============================
+        DASHBOARD  END
+    ============================== */
+
+
+
+    /*===================================
+        LISTING DETAILS START
+    ===================================*/
+    .wsus__listing_details_top .text {
+        max-width: 77%;
+    }
+
+    .sidebar_listing ul li .text {
+        width: 61%;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*===================================
+        LISTING DETAILS END
+    ===================================*/
 
 
 
@@ -127,16 +254,8 @@
         max-width: 140px;
     }
 
-    .wsus__banner {
-        /*! height: auto; */
-    }
-
-    .wsus__banner_bottom_text .img {
-        /*! margin-bottom: 190px; */
-    }
-
     .section_heading h2 {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .wsus__features_item h3 {
@@ -174,11 +293,6 @@
 
     .wsus__footer_info .footer_logo {
         width: 150px;
-    }
-
-    .wsus__footer_link,
-    .wsus__footer_apps {
-        margin-top: 50px;
     }
 
     .single__famous_cities {
@@ -219,7 +333,7 @@
 
     .wsus__footer_apps h3,
     .wsus__footer_link h3 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .wsus__single_listing_img,
@@ -230,6 +344,200 @@
     /* ==============================
         HOME PAGE END
     ============================== */
+
+
+    /* ==============================
+        ABOUT PAGE START
+    ============================== */
+    .wsus__breadcroumb_overlay {
+        padding-top: 250px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        top: -20px;
+        left: -20px;
+    }
+
+    .wsus__about_text {
+        padding-left: 0;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 36px;
+    }
+
+    .wsus__contact_info_item .text {
+        width: 80%;
+    }
+
+    /* ==============================
+        ABOUT PAGE END
+    ============================== */
+
+    .wsus__quick_contact {
+        margin-top: 25px;
+    }
+
+
+    /* ==============================
+        BLOG DETAILS START
+    ============================== */
+    .wsus__blog_details_img {
+        height: 340px;
+    }
+
+    .details_gallery_item {
+        height: 140px;
+    }
+
+    .wsus__blog_details_text ul li,
+    .wsus__blog_details_text ol li {
+        width: 50%;
+    }
+
+    .single_review .text {
+        width: 83%;
+    }
+
+    .sidebar_blog_post ul li .text {
+        width: 57%;
+    }
+
+    .wsus__blog_sidebar {
+        padding: 20px;
+    }
+
+    /* ==============================
+        BLOG DETAILS END
+    ============================== */
+
+
+    /* ==============================
+        CONTACT  START
+    ============================== */
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_form p {
+        /* width: 100%; */
+    }
+
+    .wsus__contact_form {
+        margin-top: 0;
+    }
+
+    /* ==============================
+        CONTACT  END
+    ============================== */
+
+
+
+    /* ==============================
+        DASHBOARD  START
+    ============================== */
+    .wsus__deshboard_menu li a {
+        font-size: 15px;
+    }
+
+    .wsus__message_text {
+        width: 78%;
+    }
+
+    .wsus__dash_banner_main {
+        height: 300px;
+    }
+
+    .wsus__add_property .common_btn {
+        padding: 13px 12px;
+        font-size: 14px;
+    }
+
+    /* ==============================
+        DASHBOARD  END
+    ============================== */
+
+    .wsus__faq_text h3 {
+        font-size: 34px;
+    }
+
+    .wsus__sign_in_text {
+        padding: 25px 25px 25px 0px;
+    }
+
+    .wsus__sign_in_img {
+        height: 100%;
+    }
+
+    /*===================================
+        LISTING DETAILS START
+    ===================================*/
+    .wsus__listing_details_top .text {
+        max-width: 74%;
+    }
+
+    .wsus__listing_details_img {
+        height: 370px;
+    }
+
+    .details_amenities ul li {
+        width: 50%;
+    }
+
+    .details_map {
+        height: 350px;
+    }
+
+    .details_videos_item {
+        height: 200px;
+    }
+
+    .single_review .text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__sidebar_modal .modal-body {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_modal .sidebar_modal_header .img {
+        margin-bottom: 10px;
+    }
+
+    .sidebar_listing ul li .text {
+        width: 75%;
+    }
+
+    .wsus__sidebar_item {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_item h3 {
+        font-size: 20px;
+    }
+
+    .sidebar_agent h2 {
+        font-size: 22px;
+    }
+
+    .sidebar_listing ul li .text {
+        width: 55%;
+    }
+
+    .sidebar_link ul {
+        gap: 10px;
+    }
+
+    .wsus__listing_sidebar_area {
+        padding: 20px;
+    }
+
+    /*===================================
+        LISTING DETAILS END
+    ===================================*/
+
+
+
 
 
 }
@@ -277,8 +585,12 @@
         max-height: 250px;
     }
 
-    .wsus__banner_text h1 {
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
         font-size: 42px;
+    }
+
+    .wsus__banner_text h1 {
         margin-bottom: 40px;
     }
 
@@ -298,7 +610,7 @@
     }
 
     .section_heading h2 {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .wsus__features_item h3 {
@@ -374,6 +686,234 @@
     ============================== */
 
 
+    /* ==============================
+        ABOUT PAGE START
+    ============================== */
+    .wsus__breadcroumb_text .icon {
+        width: 120px;
+        height: 120px;
+        padding: 35px;
+    }
+
+    .wsus__breadcroumb_text .text h1 {
+        font-size: 38px;
+    }
+
+    .wsus__breadcroumb_overlay {
+        padding-top: 250px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        top: -20px;
+        left: -20px;
+    }
+
+    .wsus__about_text {
+        padding-left: 0;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 36px;
+    }
+
+    .wsus__contact_info_item .icon {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .wsus__contact_info_top h2 {
+        font-size: 28px;
+    }
+
+    .wsus__contact_info_item .text {
+        width: 77%;
+    }
+
+    .wsus__contact_info_item .text h3 {
+        font-size: 18px;
+    }
+
+    .section_heading p {
+        font-size: 16px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 15px;
+    }
+
+    /* ==============================
+        ABOUT PAGE END
+    ============================== */
+
+    .wsus__main_agent {
+        padding: 35px;
+    }
+
+    .wsus__main_agent_text {
+        border-left: 0;
+        padding: 25px 0px 0px 0px;
+        margin-left: 0;
+    }
+
+    .wsus__quick_contact {
+        margin-top: 25px;
+    }
+
+    /* ==============================
+        BLOG DETAILS START
+    ============================== */
+    .wsus__blog_details_img {
+        height: 380px;
+    }
+
+    .wsus__blog_details_text ul li,
+    .wsus__blog_details_text ol li {
+        width: 50%;
+    }
+
+    .single_review .text {
+        width: 85%;
+    }
+
+    .details_review_input {
+        margin-bottom: 25px;
+    }
+
+    .sidebar_blog_post ul li .text {
+        width: 75%;
+    }
+
+    /* ==============================
+        BLOG DETAILS END
+    ============================== */
+
+
+    /* ==============================
+        CONTACT  START
+    ============================== */
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_form {
+        margin-top: 0;
+    }
+
+    /* ==============================
+        CONTACT  END
+    ============================== */
+
+
+
+    /* ==============================
+        DASHBOARD  START
+    ============================== */
+    .wsus__dashboard_main_content {
+        margin-top: 25px;
+    }
+
+    .wsus__message_text {
+        width: 90%;
+        padding: 15px 0px;
+    }
+
+    .wsus__message_icon a {
+        padding: 10px;
+    }
+
+    .wsus__dash_banner_main {
+        height: 300px;
+    }
+
+    .wsus__add_property .common_btn {
+        padding: 13px 6px;
+    }
+
+    /* ==============================
+        DASHBOARD  END
+    ============================== */
+
+    .wsus__error_text p {
+        max-width: 100%;
+    }
+
+    .wsus__faq_form {
+        margin-top: 25px;
+    }
+
+    .wsus__faq_text h3 {
+        font-size: 34px;
+    }
+
+    .wsus__sign_in_text {
+        padding: 25px 25px 25px 0px;
+    }
+
+    .wsus__sign_in_img {
+        height: 100%;
+    }
+
+    /*===================================
+        LISTING DETAILS START
+    ===================================*/
+    .wsus__listing_details_top .text {
+        max-width: 76%;
+    }
+
+    .wsus__listing_details_img {
+        height: 370px;
+    }
+
+    .details_amenities ul li {
+        width: 50%;
+    }
+
+    .details_map {
+        height: 350px;
+    }
+
+    .details_videos_item {
+        height: 200px;
+    }
+
+    .single_review .text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__sidebar_modal .modal-body {
+        padding: 25px;
+    }
+
+    .sidebar_listing ul li .text {
+        width: 75%;
+    }
+
+    .wsus__sidebar_modal .modal-dialog {
+        width: 90%;
+    }
+
+    /*===================================
+        LISTING DETAILS END
+    ===================================*/
+
+    .wsus_list_search_box {
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -424,8 +964,12 @@
         max-height: 250px;
     }
 
-    .wsus__banner_text h1 {
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
         font-size: 42px;
+    }
+
+    .wsus__banner_text h1 {
         margin-bottom: 40px;
     }
 
@@ -525,6 +1069,299 @@
     ============================== */
 
 
+    /* ==============================
+        ABOUT PAGE START
+    ============================== */
+    .wsus__breadcroumb_text .icon {
+        width: 100px;
+        height: 100px;
+        padding: 25px;
+    }
+
+    .wsus__breadcroumb_text .text h1 {
+        font-size: 34px;
+        margin-bottom: 5px;
+    }
+
+    .wsus__breadcroumb_overlay {
+        padding-top: 200px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        top: -20px;
+        left: -20px;
+    }
+
+    .wsus__about_text {
+        padding-left: 0;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__contact_info_item .icon {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .wsus__contact_info_top h2 {
+        font-size: 28px;
+    }
+
+    .wsus__contact_info_item .text {
+        width: 85%;
+    }
+
+    .wsus__contact_info_item .text h3 {
+        font-size: 18px;
+    }
+
+    .section_heading p {
+        font-size: 16px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 15px;
+    }
+
+    /* ==============================
+        ABOUT PAGE END
+    ============================== */
+
+
+    /* ==============================
+        AGENT DETAILS START
+    ============================== */
+    .wsus__main_agent_text {
+        border-left: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .wsus__quick_contact {
+        margin-top: 25px;
+    }
+
+    /* ==============================
+        AGENT DETAILS END
+    ============================== */
+
+
+    /* ==============================
+        BLOG DETAILS START
+    ============================== */
+    .wsus__blog_details_img {
+        height: 280px;
+    }
+
+    .wsus__blog_details_header ul li {
+        padding-right: 20px;
+    }
+
+    .wsus__blog_details_text ul li,
+    .wsus__blog_details_text ol li {
+        width: 50%;
+    }
+
+    .single_review .text {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .details_review_input {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__blog_sidebar {
+        padding: 25px;
+    }
+
+    .sidebar_blog_post ul li .text {
+        width: 75%;
+    }
+
+    /* ==============================
+        BLOG DETAILS END
+    ============================== */
+
+
+    /* ==============================
+        CONTACT  START
+    ============================== */
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_form p {
+        width: 100%;
+    }
+
+    .wsus__contact_form form {
+        padding: 30px;
+    }
+
+    .wsus__contact_form h3 {
+        font-size: 26px;
+    }
+
+    /* ==============================
+        CONTACT  END
+    ============================== */
+
+
+    /* ==============================
+        DASHBOARD  START
+    ============================== */
+    .wsus__dashboard_main_content {
+        margin-top: 25px;
+    }
+
+    .wsus__message_text {
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    .wsus__message_icon a {
+        padding: 10px;
+    }
+
+    .invoice_left {
+        margin-bottom: 50px;
+    }
+
+    .invoice_right {
+        text-align: left;
+    }
+
+    .medicine_row_input button {
+        margin-bottom: 20px;
+    }
+
+    .wsus__dash_banner_main {
+        height: 240px;
+    }
+
+    .nearest_location .select2-container .select2-selection--single {
+        margin-bottom: 20px;
+    }
+
+    /* ==============================
+        DASHBOARD  END
+    ============================== */
+
+    .wsus__faq_text h3 {
+        font-size: 28px;
+    }
+
+    .wsus__faq_form {
+        padding: 0px 25px 25px 25px;
+        margin-top: 25px;
+    }
+
+    .wsus__sign_in_img {
+        display: none;
+    }
+
+    .wsus__sign_in_text {
+        padding: 40px;
+    }
+
+    .wsus__sign_in_text h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .wsus__forgot_password .wsus__sign_in_img {
+        height: auto;
+    }
+
+    /*===================================
+        LISTING DETAILS START
+    ===================================*/
+    .wsus__listing_details_top .text {
+        max-width: 100%;
+        margin-top: 25PX;
+    }
+
+    .wsus__listing_details_top .text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__listing_details_img {
+        height: auto;
+    }
+
+    .details_amenities ul li {
+        width: 100%;
+    }
+
+    .details_facilities ul li {
+        width: 100%;
+    }
+
+    .details_map {
+        height: 300px;
+    }
+
+    .details_videos_item {
+        height: auto;
+    }
+
+    .wsus__sidebar_item h3 {
+        font-size: 18px;
+    }
+
+    .single_review .text h3 {
+        font-size: 22px;
+    }
+
+    .details_gallery_item {
+        height: 160px;
+    }
+
+    .wsus__sidebar_modal .modal-body {
+        padding: 25px;
+    }
+
+    .sidebar_listing ul li .text {
+        width: 75%;
+    }
+
+    .sidebar_link ul {
+        gap: 10px;
+    }
+
+    .wsus__sidebar_item {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_modal .modal-dialog {
+        width: 90%;
+    }
+
+    /*===================================
+        LISTING DETAILS END
+    ===================================*/
+
+    .wsus_list_search_box {
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
 
 
 }
@@ -584,8 +1421,12 @@
         max-height: 250px;
     }
 
-    .wsus__banner_text h1 {
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
         font-size: 42px;
+    }
+
+    .wsus__banner_text h1 {
         margin-bottom: 40px;
     }
 
@@ -673,6 +1514,351 @@
     /* ==============================
         HOME PAGE END
     ============================== */
+
+
+    /* ==============================
+        ABOUT PAGE START
+    ============================== */
+    .wsus__breadcroumb_text .icon {
+        display: none;
+    }
+
+    .wsus__breadcroumb_text .text h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .wsus__breadcroumb_overlay {
+        padding-top: 180px;
+        padding-bottom: 10px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        top: -10px;
+        left: -10px;
+    }
+
+    .wsus__about_img .about_single_img_2 {
+        position: relative;
+        margin-top: 25px;
+        border: none;
+    }
+
+    .wsus__about_img .about_single_img_1 {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .wsus__about_text {
+        padding-left: 0;
+    }
+
+    .wsus__about_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__contact_info_item .icon {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .wsus__contact_info_top h2 {
+        font-size: 28px;
+    }
+
+    .wsus__contact_info_item .text {
+        width: 100%;
+    }
+
+    .wsus__contact_info_item .text h3 {
+        font-size: 18px;
+    }
+
+    .section_heading p {
+        font-size: 16px;
+    }
+
+    .wsus__about_img a {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 15px;
+    }
+
+    /* ==============================
+        ABOUT PAGE END
+    ============================== */
+
+
+    /* ==============================
+        AGENT DETAILS START
+    ============================== */
+    .wsus__main_agent {
+        padding: 0;
+    }
+
+    .wsus__main_agent_text {
+        border-left: 0;
+        padding: 25px;
+        margin-left: 0;
+    }
+
+    .wsus__quick_contact {
+        margin-top: 25px;
+    }
+
+    /* ==============================
+        AGENT DETAILS END
+    ============================== */
+
+
+    /* ==============================
+        BLOG DETAILS START
+    ============================== */
+    .wsus__blog_details_img {
+        height: auto;
+    }
+
+    .wsus__blog_details_text ul li,
+    .wsus__blog_details_text ol li {
+        width: 100%;
+    }
+
+    .single_review .text {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .details_review_input {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__blog_sidebar {
+        padding: 25px;
+    }
+
+    .sidebar_blog_post ul li .text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* ==============================
+        BLOG DETAILS END
+    ============================== */
+
+
+    /* ==============================
+        CONTACT  START
+    ============================== */
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_form p {
+        width: 100%;
+    }
+
+    .wsus__contact_form form {
+        padding: 20px;
+    }
+
+    .wsus__contact_form h3 {
+        font-size: 26px;
+    }
+
+    .wsus__contact_form {
+        margin-top: 0;
+    }
+
+    /* ==============================
+        CONTACT  END
+    ============================== */
+
+
+    /* ==============================
+        DASHBOARD  START
+    ============================== */
+    .wsus__dashboard_main_content {
+        margin-top: 25px;
+    }
+
+    .wsus__message_text {
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    .wsus__message_icon a {
+        padding: 10px;
+    }
+
+    .invoice_left {
+        margin-bottom: 50px;
+    }
+
+    .invoice_right {
+        text-align: left;
+    }
+
+    .wsus__dash_info_text {
+        padding: 25px;
+    }
+
+    .medicine_row_input button {
+        margin-bottom: 20px;
+    }
+
+    .wsus__dashboard .heading {
+        font-size: 22px;
+    }
+
+    .wsus__add_property .common_btn {
+        font-size: 14px;
+    }
+
+    .nearest_location .select2-container .select2-selection--single {
+        margin-bottom: 20px;
+    }
+
+    .wsus__select_review ul li span {
+        width: 100%;
+    }
+
+    /* ==============================
+        DASHBOARD  END
+    ============================== */
+
+    .wsus__error_text p {
+        max-width: 100%;
+    }
+
+    .wsus__faq_text h3 {
+        font-size: 28px;
+    }
+
+    .wsus__faq_form {
+        padding: 0px 25px 25px 25px;
+        margin-top: 25px;
+    }
+
+    .wsus__sign_in_img {
+        display: none;
+    }
+
+    .wsus__sign_in_text {
+        padding: 40px;
+    }
+
+    .wsus__sign_in_text h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .wsus__forgot_password .wsus__sign_in_img {
+        height: auto;
+    }
+
+
+    /*===================================
+        LISTING DETAILS START
+    ===================================*/
+    .wsus__listing_details_top .text {
+        max-width: 100%;
+        margin-top: 25PX;
+    }
+
+    .wsus__listing_details_top .text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__listing_details_img {
+        height: auto;
+    }
+
+    .details_amenities ul li {
+        width: 100%;
+    }
+
+    .details_facilities ul li {
+        width: 100%;
+    }
+
+    .details_map {
+        height: 250px;
+    }
+
+    .details_videos_item {
+        height: auto;
+    }
+
+    .details_facilities,
+    .details_amenities,
+    .wsus__sidebar_item,
+    .details_floore_plan,
+    .details_videos {
+        padding: 20px;
+    }
+
+    .wsus__sidebar_item h3 {
+        font-size: 18px;
+    }
+
+    .single_review .text h3 {
+        font-size: 22px;
+    }
+
+    .details_gallery_item {
+        height: 160px;
+    }
+
+    .sidebar_agent h2 {
+        font-size: 20px;
+    }
+
+    .wsus__sidebar_modal .modal-body {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_modal .sidebar_modal_header .img {
+        margin-bottom: 10px;
+    }
+
+    .sidebar_listing ul li .text {
+        width: 57%;
+    }
+
+    .sidebar_link ul {
+        gap: 10px;
+    }
+
+    .details_videos h3,
+    .details_floore_plan h3,
+    .details_facilities h3,
+    .details_gallery h3,
+    .details_amenities h3 {
+        font-size: 20px;
+    }
+
+    /*===================================
+        LISTING DETAILS END
+    ===================================*/
+
+    .wsus_list_search_box {
+        margin-bottom: 15px;
+    }
+
 
 
 

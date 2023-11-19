@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/scroll_button.css">
     <link rel="stylesheet" href="css/add_row_custon.css">
     <link rel="stylesheet" href="css/summernote.min.css">
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +37,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="far fa-bars bar_icon"></i>
+                <i class="far fa-times close_icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
@@ -49,9 +51,6 @@
                             <li><a href="listing_topbar.html">listing topbar</a></li>
                             <li><a href="listing_sidebar.html">listing sidebar</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -234,7 +233,7 @@
     <section class="wsus__subscription mt_100 pt_70 pb_70" style="background: url(images/subscribe_bg.jpg);">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-7">
                     <div class="wsus__subscription_text">
                         <h4>Get Information</h4>
                         <h2>Subscribe To Newsletter</h2>
@@ -245,7 +244,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-5">
                     <div class="wsus__subscription_img">
                         <img src="images/subscrib_img.png" alt="subscribtion" class="img-fluid w-100">
                     </div>
@@ -265,7 +264,7 @@
         <div class="wsus__footer_overlay pt_100">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-lg-3 col-md-9">
                         <div class="wsus__footer_info">
                             <a class="footer_logo" href="#">
                                 <img src="images/logo.png" alt="Logo" class="img-fluid w-100">
@@ -273,13 +272,13 @@
                             <p class="description"> Lorem Ipsum is simply dummy text of the printing ands ...</p>
                             <p class="action"><i class="fas fa-map-marker-alt"></i> 3711 Battleground Ave, Greensboro,
                                 Nebraska, 27410,</p>
-                            <a class="action" href="claato:0123 456 789 000"><i class="fas fa-phone-alt"></i> 0123 456
+                            <a class="action" href="callto:0123456789000"><i class="fas fa-phone-alt"></i> 0123 456
                                 789 000</a>
                             <a class="action" href="mailto:demo@gmail.com"><i class="fas fa-envelope"></i>
                                 demo@gmail.com</a>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-3 col-sm-6 col-md-4">
                         <div class="wsus__footer_link">
                             <h3>Customer Care</h3>
                             <ul>
@@ -293,7 +292,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2 col-sm-6 col-md-4">
                         <div class="wsus__footer_link">
                             <h3>Customer Care</h3>
                             <ul>
@@ -307,7 +306,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2 col-sm-6 col-md-4">
                         <div class="wsus__footer_link">
                             <h3>Get to Know Us</h3>
                             <ul>
@@ -321,7 +320,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2 col-sm-6 col-md-9">
                         <div class="wsus__footer_apps">
                             <h3>Get Our Apps</h3>
                             <ul>
@@ -351,6 +350,7 @@
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -401,6 +401,9 @@
     <script src="js/sticky_sidebar.js"></script>
     <!--summernote js-->
     <script src="js/summernote.min.js"></script>
+    <!--animated headline js-->
+    <script src="js/jquery.animatedheadline.min.js"></script>
+
     <!--main/custom js-->
     <script src="js/main.js"></script>
 

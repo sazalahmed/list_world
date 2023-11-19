@@ -670,6 +670,9 @@ button {
     text-align: center;
     font-size: 64px;
     font-weight: 700;
+}
+
+.wsus__banner_text h1 {
     margin-bottom: 60px;
 }
 
@@ -2940,15 +2943,14 @@ footer {
 }
 
 .wsus__contact_img {
-    width: 1000px;
+    width: 885px;
     position: relative;
-    left: -200px;
+    left: -290px;
 }
 
 .wsus__contact_form {
     position: relative;
     z-index: 1;
-    margin-top: 35px;
 }
 
 .wsus__contact_form h3 {
@@ -3794,8 +3796,9 @@ footer {
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
     position: absolute;
-    top: -9px;
+    top: 50%;
     left: 0;
+    transform: translateY(-50%);
     width: 40px;
     height: 40px;
     line-height: 42px;
@@ -3808,6 +3811,10 @@ footer {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .wsus__about_text ul li:hover::after {
@@ -4422,6 +4429,7 @@ footer {
     padding: 10px 20px;
     border: none;
     border-top: 1px solid #eee;
+    min-width: 200px;
 }
 
 .wsus__my_property .table,
@@ -4894,6 +4902,7 @@ footer {
     padding: 10px;
     border-right: 1px solid #eee;
     width: 25%;
+    min-width: 170px;
 }
 
 .wsus__dash_invoice .table tr td {
