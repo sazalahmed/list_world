@@ -973,6 +973,11 @@ button {
     font-weight: 600;
     margin-top: 25px;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.wsus__features_item p {
+    text-align: center;
 }
 
 /* features end */
@@ -4457,6 +4462,15 @@ footer {
     align-items: center;
     justify-content: center;
     border-right: 1px solid #eee;
+}
+
+.wsus__dash_invoice .table tfoot tr .total_text {
+    width: 75% !important;
+    text-align: right;
+}
+
+.wsus__dash_invoice .table tfoot tr .total_amount {
+    width: 25% !important;
 }
 
 .wsus__my_property .table tr th,
