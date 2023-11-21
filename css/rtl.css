@@ -473,6 +473,248 @@
     left: 20px;
 }
 
+.details_amenities ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.details_amenities ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.details_facilities ul li span {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__sidebar_item h3 span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.sidebar_agent .call_to_action {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.sidebar_agent .call_to_action i {
+    left: auto;
+    right: 0;
+}
+
+.sidebar_listing ul li .img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.sidebar_listing ul li .text p i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__listing_details_top .icon {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.listing_sidebar_item .search button {
+    right: auto;
+    left: 20px;
+}
+
+.listing_sidebar_item .check_area .form-check input {
+    float: right;
+}
+
+.listing_sidebar_item .check_area label {
+    margin-right: 25px;
+}
+
+.wsus_list_search_box {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus_list_search_box::after {
+    left: auto;
+    right: 20px;
+}
+
+.wsus__privacy_policy_text ul li,
+.wsus__privacy_policy_text ol li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__privacy_policy_text ul li::after,
+.wsus__privacy_policy_text ol li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__sign_in_text .input_box span {
+    right: auto;
+    left: 20px;
+}
+
+.input_box .form-check input {
+    float: right;
+}
+
+.input_box .form-check label {
+    padding-right: 25px;
+}
+
+.single__famous_cities .text {
+    left: auto;
+    right: 20px;
+}
+
+.wsus__banner_bottom_text h2 i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__testimonial_footer h3 i {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+.wsus__faq_text .accordion-item button {
+    text-align: right;
+}
+
+.wsus__sign_in_text {
+    padding: 50px 25px 50px 50px;
+}
+
+
+.listing_sidebar_item .check_area .form-check {
+    padding-left: 0;
+}
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    .wsus__contact_img {
+        right: -185px;
+    }
+
+
+
+
+
+
+    /*  */
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+
+
+    .wsus__contact_img {
+        right: -170px;
+    }
+
+
+
+
+    /*  */
+
+
+}
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    .wsus__about_text {
+        padding-right: 0;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        right: -20px;
+    }
+
+    .wsus__sign_in_text {
+        padding: 25px 0px 25px 25px;
+    }
+
+
+
+
+    /*  */
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+
+    .navbar-toggler {
+        margin-right: 0;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: auto;
+        right: 15px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        right: -20px;
+    }
+
+    .wsus__about_text {
+        padding-right: 0;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+    .wsus__main_agent_text {
+        border-right: 0;
+        margin-right: 0;
+    }
+
+    .wsus__sign_in_text {
+        padding: 25px 0px 25px 25px;
+    }
+
+
+
+
+
+
+
+
+    /*  */
+}
 
 
 
@@ -489,7 +731,99 @@
 
 
 
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .navbar-toggler {
+        margin-right: 0;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: auto;
+        right: 15px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        right: -20px;
+    }
+
+    .wsus__about_text {
+        padding-right: 0;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+    .wsus__main_agent_text {
+        border-right: 0;
+        margin-right: 0;
+    }
 
 
 
-/*  */
+
+
+
+
+
+
+
+
+    /*  */
+
+
+
+
+}
+
+
+@media (max-width: 575.99px) {
+
+    .navbar-toggler {
+        margin-right: 0;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu .menu_right .user_icon,
+    .main_menu .menu_right .add_list_btn {
+        margin-left: 10px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: auto;
+        right: 15px;
+    }
+
+    .wsus__about_img .about_single_img_1::after {
+        right: -10px;
+    }
+
+    .wsus__about_img a {
+        right: auto;
+    }
+
+    .wsus__about_text {
+        padding-right: 0;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+
+
+    /*  */
+}

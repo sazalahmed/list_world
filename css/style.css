@@ -996,6 +996,11 @@ button {
     background: var(--colorWhite);
     box-shadow: 0px 0px 25px 0px rgba(194, 194, 194, 0.25);
     overflow: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__single_listing_img,
@@ -1178,6 +1183,10 @@ button {
     border-color: var(--colorWhite);
 }
 
+.wsus__single_listing:hover {
+    margin-top: 15px;
+}
+
 /* latest listing end */
 
 /* famous cities start */
@@ -1191,6 +1200,11 @@ button {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .single__famous_cities img {
@@ -1269,11 +1283,11 @@ button {
 }
 
 .single__famous_cities:hover img {
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
+    transform: scale(1.1) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    -o-transform: scale(1.1) rotate(5deg);
 }
 
 .single__famous_cities:hover .text {
@@ -1296,6 +1310,11 @@ button {
     box-shadow: 0px 0px 25px 0px rgba(194, 194, 194, 0.25);
     overflow: hidden;
     margin-top: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__single_category_img {
@@ -1329,6 +1348,10 @@ button {
 .wsus__single_category_text .title {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.wsus__single_category:hover {
     margin-top: 15px;
 }
 
@@ -1499,7 +1522,6 @@ button {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
-    margin-top: 8px;
 }
 
 .wsus__work_item .text p {
@@ -1765,11 +1787,11 @@ button {
 }
 
 .wsus__single_blog:hover .wsus__single_blog_img img {
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
+    transform: scale(1.05) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.05) rotate(5deg);
+    -ms-transform: scale(1.05) rotate(5deg);
+    -o-transform: scale(1.05) rotate(5deg);
 }
 
 /* blog end */
@@ -3964,6 +3986,14 @@ footer {
     -o-transition: all linear .3s;
 }
 
+.wsus__single_agent_img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
 .wsus__single_agent_text a {
     text-transform: capitalize;
     color: var(--colorBlack);
@@ -4015,6 +4045,18 @@ footer {
 
 .wsus__single_agent:hover .wsus__single_agent_img {
     border-color: var(--colorPrimary);
+}
+
+.wsus__single_agent:hover .wsus__single_agent_img img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.wsus__single_agent:hover {
+    margin-top: 15px;
 }
 
 /*===================================

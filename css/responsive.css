@@ -202,6 +202,11 @@
         width: 61%;
     }
 
+    .wsus__work_item .text h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
     /*===================================
         LISTING DETAILS END
     ===================================*/
@@ -221,8 +226,9 @@
         margin-right: 10px;
     }
 
-    .main_menu .menu_right .add_list_btn {
-        margin-right: 10px;
+    .wsus__work_item .text h3 {
+        font-size: 16px;
+        margin-top: 10px;
     }
 
     .main_menu .navbar-brand {
@@ -250,10 +256,6 @@
 
     .wsus__work_item .text {
         width: 100%;
-    }
-
-    .wsus__work_item .text h3 {
-        font-size: 16px;
     }
 
     .wsus__single_testimonial {
@@ -580,6 +582,7 @@
 
     .wsus__work_item .text {
         width: 100%;
+        margin-top: 10px;
     }
 
     .wsus__work_item .text h3 {
@@ -1480,13 +1483,13 @@
     }
 
     .wsus__about_img a {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        -webkit-transform: translate(-50%, -50%) !important;
+        -moz-transform: translate(-50%, -50%) !important;
+        -ms-transform: translate(-50%, -50%) !important;
+        -o-transform: translate(-50%, -50%) !important;
     }
 
     .progress-wrap {
@@ -1748,5 +1751,13 @@
 
     .wsus_list_search_box {
         margin-bottom: 15px;
+    }
+
+    .wsus__about_img .about_single_img_1::before {
+        display: none;
+    }
+
+    .wsus__error_text h2 {
+        font-size: 34px;
     }
 }
