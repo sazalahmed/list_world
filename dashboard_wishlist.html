@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Listing <i class="far fa-angle-down"></i></a>
@@ -57,7 +57,7 @@
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
+            <a class="nav-link active" href="#">Pages <i class="far fa-angle-down"></i></a>
             <ul class="wsus__droap_menu">
               <li><a href="error.html">404</a></li>
               <li><a href="about_us.html">about us</a></li>
@@ -71,7 +71,7 @@
               <li><a href="sign_in.html">sign in</a></li>
               <li><a href="sign_up.html">sign up</a></li>
               <li><a href="forgot_password.html">forgot password</a></li>
-              <li><a href="dashboard.html">dashboard</a></li>
+              <li><a class="active" href="dashboard.html">dashboard</a></li>
               <li><a href="pricing.html">pricing</a></li>
               <li><a href="category.html">category</a></li>
             </ul>
@@ -139,9 +139,8 @@
   ==============================-->
   <section class="wsus__dashboard mt_100">
     <div class="container">
-
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 wow fadeInLeft">
           <span class="wsus__menu_icon"><i class="fas fa-bars"></i></span>
           <div class="wsus__dashboard_side_bar">
             <span class="wsus__close_icon"><i class="fas fa-times"></i></span>
@@ -182,7 +181,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-9 wow fadeInRight">
           <div class="wsus__dashboard_main_content">
             <div class="wsus__my_property">
               <h4 class="heading">wishlist</h4>
@@ -403,13 +402,43 @@
 
 
   <!--============================
-        FOOTER START
+        SUBSCRIPTION START
     ==============================-->
+  <section class="wsus__subscription mt_100 pt_70 pb_70" style="background: url(images/subscribe_bg.jpg);">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-xl-6 col-lg-7 wow fadeInLeft">
+          <div class="wsus__subscription_text">
+            <h4>Get Information</h4>
+            <h2>Subscribe To Newsletter</h2>
+            <p>Subscribe to get update and information. Don't worry, we won't send spam!</p>
+            <form action="#">
+              <input type="text" placeholder="Your email">
+              <button class="common_btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-5 wow bounceIn">
+          <div class="wsus__subscription_img">
+            <img src="images/subscrib_img.png" alt="subscribtion" class="img-fluid w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============================
+      SUBSCRIPTION END
+  ==============================-->
+
+
+  <!--============================
+      FOOTER START
+  ==============================-->
   <footer style="background: url(images/footer_bg.jpg);">
     <div class="wsus__footer_overlay pt_100">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-xl-3 col-lg-3 col-md-9">
+          <div class="col-xl-3 col-lg-3 col-md-9 wow fadeInUp">
             <div class="wsus__footer_info">
               <a class="footer_logo" href="#">
                 <img src="images/logo.png" alt="Logo" class="img-fluid w-100">
@@ -423,7 +452,7 @@
                 demo@gmail.com</a>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-3 col-sm-6 col-md-4">
+          <div class="col-xl-2 col-lg-3 col-sm-6 col-md-4 wow fadeInUp">
             <div class="wsus__footer_link">
               <h3>Customer Care</h3>
               <ul>
@@ -437,7 +466,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-2 col-sm-6 col-md-4">
+          <div class="col-xl-2 col-lg-2 col-sm-6 col-md-4 wow fadeInUp">
             <div class="wsus__footer_link">
               <h3>Customer Care</h3>
               <ul>
@@ -451,7 +480,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-2 col-sm-6 col-md-4">
+          <div class="col-xl-2 col-lg-2 col-sm-6 col-md-4 wow fadeInUp">
             <div class="wsus__footer_link">
               <h3>Get to Know Us</h3>
               <ul>
@@ -465,7 +494,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-2 col-sm-6 col-md-9">
+          <div class="col-xl-2 col-lg-2 col-sm-6 col-md-9 wow fadeInUp">
             <div class="wsus__footer_apps">
               <h3>Get Our Apps</h3>
               <ul>
