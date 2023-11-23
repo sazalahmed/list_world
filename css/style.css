@@ -91,12 +91,13 @@ button {
     color: var(--colorWhite);
     font-size: 16px;
     font-weight: 500;
-    background: var(--col);
+    background: var(--colorPrimary);
     padding: 13px 30px;
     position: relative;
     border-radius: 5px;
     z-index: 1;
     text-align: center;
+    overflow: hidden;
     text-transform: capitalize;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -110,66 +111,36 @@ button {
 }
 
 .common_btn:hover {
-    color: var(--colorPrimary);
+    background: var(--colorBlack);
+    color: var(--colorWhite);
 }
 
 .common_btn i {
     margin-left: 5px;
 }
 
-.common_btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: var(--colorPrimary);
-    border-radius: 5px;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.common_btn:hover::before {
-    opacity: 0;
-    transform: scale(0.5, 0.5);
-}
-
 .common_btn::after {
-    content: '';
     position: absolute;
+    content: "";
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: -70%;
     z-index: 2;
-    opacity: 0;
-    border-radius: 5px;
-    border: 1px solid var(--colorPrimary);
-    transform: scale(.8);
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255 255 255 / 0%) 0%, rgb(255 255 255 / 30%) 100%);
+    transform: skewX(-25deg);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
-.common_btn:hover::after {
-    opacity: 1;
-    transform: scale(1, 1);
+.common_btn:hover:after {
+    left: 105%;
 }
+
 
 .prevArrow.slick-arrow,
 .nextArrow.slick-arrow {
@@ -478,7 +449,7 @@ button {
 .main_menu .menu_right {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    padding-top: 5px;
 }
 
 .main_menu .menu_right .user_icon {
@@ -852,14 +823,16 @@ button {
     flex-direction: column;
     align-items: end;
     position: absolute;
-    bottom: -33px;
+    bottom: -20px;
     right: 22px;
     background: var(--colorWhite);
     color: var(--colorBlack);
     width: auto;
-    padding: 7px 45px 7px 25px;
+    padding: 0;
     border-radius: 0px 0px 6px 6px !important;
     filter: drop-shadow(0px 4px 17px rgba(94, 94, 94, 0.20));
+    width: 40px;
+    height: 20px;
 }
 
 .banner_search_form .accordion-button:not(.collapsed) {
@@ -872,8 +845,8 @@ button {
 
 .banner_search_form .accordion-button::after {
     position: absolute;
-    right: 20px;
-    top: 11px;
+    right: 15px;
+    top: 3px;
     width: 11px;
     height: 11px;
     background-position: center;
